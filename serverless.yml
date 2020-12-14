@@ -19,5 +19,9 @@ functions:
     events:
       - http: ANY /{proxy+}
       - http: ANY /
+      - http: ANY /about
+      - http: ANY /members
+      - http: ANY /signin
+      - http: ANY /videoupload
 
     
